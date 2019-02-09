@@ -9,7 +9,7 @@
 __pycache__/
 local_settings.py
 db.sqlite3
-media
+/media
 venv
 
 # If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
@@ -128,5 +128,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
+/static
 # End of https://www.gitignore.io/api/django
